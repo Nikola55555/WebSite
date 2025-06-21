@@ -46,5 +46,5 @@ class BasePageHelper:
         self.click_login()
 
     @allure.step(f'Получение текущего URL')
-    def is_on_main_page(browser):
-        return browser.current_url == "https://urait.ru/"
+    def is_on_main_page(self):
+        return self.driver.current_url == "https://urait.ru/"

@@ -1,7 +1,7 @@
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-from pages.BasePage import BasePageHelper
+from pages.base_page import BasePageHelper
 import allure
 
 BASE_URL = 'https://urait.ru/'
