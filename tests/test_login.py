@@ -1,4 +1,4 @@
-from pages.base_page import BasePageHelper, BasePageLocators
+from pages.base_page import BasePageHelper
 from pages.modals.login_modal import LoginModalHelper, LoginModalSelectors
 
 import allure
